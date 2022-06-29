@@ -22,9 +22,10 @@
   </head>
   <body>
     <p>玩家1：小明</p>
+    <p>玩家2：小红</p>
 
     <script>
-      const para = document.querySelector('p');
+      const para = document.querySelector('p'); // return first selector
       para.addEventListener('click', updateName);
       function updateName() {
         const name = prompt('输入一个新的名字：');
